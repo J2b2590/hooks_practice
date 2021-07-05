@@ -15,6 +15,7 @@ function App() {
     <div className="App">
       <h2>{count}</h2>
       <button onClick={() => setCount(count + 1)}>UP</button>
+      <button onClick={() => setCount(count - 1)}>DOWN</button>
     </div>
   );
 }
